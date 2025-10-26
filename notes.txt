@@ -1,0 +1,5 @@
+gawa ka muna ng database iname mo ng student_attendance
+
+tapos use mo yung student_attendance
+
+next hanapin mo import sa taas tapos import yung student_attendance.sql
