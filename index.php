@@ -30,14 +30,15 @@ include 'connection.php';
             <option value="4th Year">4th Year</option>
         </select>
 
-        <label>Course:</label>
-        <select name="course" required>
-            <option value="">-- Select Course --</option>
-            <option value="BSIT">IT</option>
-            <option value="BSCS">ACCOUNTANCY</option>
-            <option value="BSECE">EDUCATION</option>
-            <option value="BSBA">HUMAN RESOURCES & MARKETING</option>
-        </select>
+	<label>Course:</label>
+		<select name="course" required>
+    		<option value="">-- Select Course --</option>
+    		<option value="IT">Information Technology</option>
+    		<option value="HR">Human Resources</option>
+    		<option value="EDUC">Education</option>
+    		<option value="ACC">Accountancy</option>
+	</select>
+
 
         <button type="submit">Add Student</button>
     </form>
