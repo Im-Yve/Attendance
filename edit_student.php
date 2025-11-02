@@ -54,7 +54,7 @@ $student = $conn->query("SELECT * FROM students WHERE id=$id")->fetch_assoc();
     <label>Course:</label>
     <select name="course" required>
       <?php
-      $courses = ['BSIT','BSCS','BSECE','BSBA','BSED'];
+      $courses = ['IT','HR','EDUC','ACC'];
       foreach ($courses as $c) {
         $sel = ($c == $student['course']) ? 'selected' : '';
         echo "<option $sel>$c</option>";
